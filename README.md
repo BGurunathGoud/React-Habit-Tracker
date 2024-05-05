@@ -1,3 +1,44 @@
+# React -  Habit Tracker
+1. User can set the Habits here and can check on daily basis.
+2. I have used React to develop the frontend of the application where user can track there daily habits.
+
+## Installation of code in VS Code.
+1. User should download all the project files related to this application.
+2. Install all the dependencies in VS code.
+3. Go to terminal if all packages are installed successfully or not.
+4. Set the correct directory path of the application.
+5. Run npm install, because it will download the node modules dependencies.
+6. Run npm start, then the project starts to run on localhost port 3000.
+
+## Functioning of the Habit-Tracker application
+1. User need to open the link of the project on web browser.
+2. Then a Habit Tracker application is displayed.
+3. Here user can set their daily habits and track them regularly.
+4. User can set their Habit by clicking on Submit Habit button.
+   + A Form appears with enter your habit.
+   + Enter the Habit you want to track on regularly.
+   + Then click on save.
+5. A Task appears on Habits Lists.
+6. User can click on their Habit select options of their choice by clicking on weekly Data button.
+   + In order to complete the Task click on complete button.
+   + In order to set the task to not yet started set it None.
+   + In order to set the task to missed, click on undone button.
+7. In order to come back to Habits Lists page click on back to Habit Lists button.
+8. In order to delete the task click on delete button.
+
+## Deployed Link
+
+https://6637659d8606ebc0efb38c61--papaya-pixie-1334b0.netlify.app/
+
+***
+
+# Folder Structure
+
+~habit-tracker | |
+|--->build----> ||--->static--->|--->css | | |--->js | | | |--->node modules----> | |--->favicon.ico | |--->index.html | |--->logo192.png | |--->logo512.png | |--->manifest.json | |--->robots.txt | |--->src--->|--->components---->|-->App.js | | |-->DayView.js | | |-->Habit.js | | |-->Habits.js | | |-->Home.js | | |-->Navbar.js | | |-->WeekView.js | | | |--->redux---->||--->features|||--->habitSlice.js| | --->store.js| | | |--->index.css | |--->index.js | |--->reportWebVitals.js |-->.gitignore |--> package-lock.json |-->package.json |--> README.md
+
+****
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
